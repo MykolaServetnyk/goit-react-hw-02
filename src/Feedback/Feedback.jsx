@@ -1,10 +1,11 @@
 
-export default function Feedback() {
-    return (
+export default function Feedback({values}) {
+    
+        return (
     <div>
-        <p>Good:</p>
-        <p>Neutral:</p>
-        <p>Bad:</p>
+        <p>Good: {values.good}</p>
+        <p>Neutral: {values.neutral}</p>
+        <p>Bad: {values.bad}</p>
         <p>Total:</p>
         <p>Positive:</p>
     </div>
