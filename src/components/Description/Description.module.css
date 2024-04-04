@@ -1,3 +1,8 @@
 .desc {
     text-align: left;
+    background-color: blue;
+    color: antiquewhite;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid orangered;
 }
